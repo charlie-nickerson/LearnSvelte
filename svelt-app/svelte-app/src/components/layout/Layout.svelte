@@ -11,7 +11,7 @@
   .main-content {
     flex: 1;
     padding: 2rem;
-    background: #f5f7fa;
+    background: #1f1f23;
     overflow-y: auto;
   }
 </style>

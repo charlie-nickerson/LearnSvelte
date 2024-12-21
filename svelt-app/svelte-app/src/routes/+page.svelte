@@ -2,6 +2,7 @@
   import Header from "../components/layout/Header.svelte";
   import Sidebar from "../components/layout/Sidebar.svelte";
   import Layout from "../components/layout/Layout.svelte";
+  import "../app.css";
 </script>
 
 <div class="app-container">

@@ -3,15 +3,18 @@
 </script>
 
 <aside class="sidebar">
-  <DeviceSelection />
+  <div class="sidebar-content">
+    <DeviceSelection />
+  </div>
 </aside>
 
 <style>
   .sidebar {
     width: 300px;
-    background: white;
-    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    background: #1f1f23;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
     overflow-y: auto;
     flex-shrink: 0;
+    position: relative;
   }
 </style>
