@@ -1,9 +1,11 @@
 <script>
   import DeviceSelection from "./Sidebar/DeviceSelection.svelte";
+  import DateRange from "./Sidebar/DateRange.svelte";
 </script>
 
 <aside class="sidebar">
   <div class="sidebar-content">
+    <DateRange />
     <DeviceSelection />
   </div>
 </aside>
