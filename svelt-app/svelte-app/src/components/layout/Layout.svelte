@@ -1,11 +1,10 @@
 <script>
   // Import any required stores or dependencies
   import { deviceTypes } from "../../stores/deviceStore.js";
-  import TemperatureGraph from "./Charts/Graphs/TemperatureGraph.svelte";
 </script>
 
 <main class="main-content">
-  <TemperatureGraph />
+  <!-- Your charts/content will go here -->
 </main>
 
 <style>
